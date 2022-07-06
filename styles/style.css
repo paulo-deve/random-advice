@@ -1,0 +1,67 @@
+.container {
+  height: 100vh;
+  background: var(--gray-900);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 35rem;
+  background: var(--gray-800);
+
+  padding: 3rem;
+
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.wrapper p {
+  color: var(--green-500);
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+
+  margin-bottom: 1rem;
+}
+
+.wrapper blockquote {
+  color: var(--cyan-100);
+
+  font-size: 1.75rem;
+  font-weight: 800;
+
+  text-align: center;
+
+  margin-bottom: 2rem;
+}
+
+.wrapper button {
+  height: 4rem;
+  width: 4rem;
+
+  background: var(--green-500);
+
+  border: 0;
+  border-radius: 4rem;
+
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 2rem;
+  margin-bottom: -5rem;
+}
+
+.wrapper button:hover {
+  -webkit-box-shadow: 5px 5px 43px -2px var(--green-500);
+  box-shadow: 5px 5px 43px -2px var(--green-500);
+}
